@@ -1,0 +1,8 @@
+joblib==1.5.1
+Levenshtein==0.27.1
+notebook==7.4.4
+numpy 
+pandas
+python-Levenshtein==0.27.1
+scikit-learn==1.6.1
+zipp==3.23.0
