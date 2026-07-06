@@ -10,7 +10,6 @@ This project presents a practical search suggestion pipeline for Farsi that comb
 
 The project was developed individually as part of an NLP challenge inspired by a real-world transportation search scenario.
 
----
 
 ## Problem Statement
 
@@ -25,7 +24,6 @@ These issues reduce search quality and negatively impact user experience.
 
 The objective of this project is to build a robust suggestion system that predicts the intended destination and returns the five most relevant search suggestions.
 
----
 
 ## Dataset
 
@@ -40,7 +38,6 @@ Each record includes information such as:
 
 The dataset was filtered to include Bus and Taxi services.
 
----
 
 ## Solution Pipeline
 
@@ -77,7 +74,6 @@ Levenshtein Ranking
 Top 5 Suggestions
 ```
 
----
 
 ## Features
 
@@ -88,7 +84,6 @@ Top 5 Suggestions
 * Edit-distance ranking for similar city names
 * Top-5 search suggestion generation
 
----
 
 ## Technologies
 
@@ -99,7 +94,6 @@ Top 5 Suggestions
 * python-Levenshtein
 * Jupyter Notebook
 
----
 
 ## Project Structure
 
@@ -113,7 +107,6 @@ Farsi-Search-Suggestions/
 └── requirements.txt
 ```
 
----
 
 ## Results
 
@@ -124,7 +117,6 @@ The prediction model is evaluated using:
 
 After predicting the most likely destination, Levenshtein Distance is used to retrieve similar city names and generate the final Top-5 search suggestions.
 
----
 
 ## Example
 
